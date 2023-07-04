@@ -1,0 +1,44 @@
+.formBox {
+  width: 510px;
+  height: 610px;
+  background-color: rgba(95, 158, 160, 0.644);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  box-shadow: 1.5px 1.5px 0px black;
+}
+
+.inputBox {
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 15px;
+  width: 50%;
+  height: 45px;
+  border-radius: 10px;
+  outline: none;
+  border: 0;
+  font-size: 15px;
+}
+
+.tableBtn {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  width: 85px;
+  height: 35px;
+  border-radius: 10px;
+  border: 0;
+  background-color: red;
+  color: white;
+  font-weight: 900;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow: 1.5px 1.5px 0px black;
+}
+
+.tableBtn:hover {
+  transform: scale(0.96);
+}/*# sourceMappingURL=student.module.css.map */
