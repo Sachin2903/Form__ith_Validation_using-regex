@@ -5,7 +5,7 @@ export function Student(){
     return(
         <Fragment>
             <form className={styles.formBox}>
-                   <input spellCheck="false" className={styles.inputBox}/>
+                   <input type="text" spellCheck="false" className={styles.inputBox}/>
                    <input spellCheck="false" className={styles.inputBox}/>
                    <input spellCheck="false" className={styles.inputBox}/>
                    <input spellCheck="false" className={styles.inputBox}/>
